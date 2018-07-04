@@ -1,3 +1,5 @@
+let bubbles = [];
+
 let luffy;
 let zoro;
 
