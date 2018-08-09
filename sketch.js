@@ -59,7 +59,7 @@ class Bubble {
 	}
 
 	contains() {
-		if(mouseX > this.x && mouseX < this.x + this.r && mouseY < this.y+this.r && mouseY > this.y-this.r) {
+		if(mouseX > this.x && mouseX < this.x + this.r && mouseY < this.y+this.r && mouseY > this.y) {
 			this.img = zoro;
 		}
 	}
